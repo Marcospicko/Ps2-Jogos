@@ -1,7 +1,7 @@
 # PS2-Nostalgia
 Site para baixar jogos e jogar também ...
 
-GitHub Pages:https://github.com/Marcospicko/Ps2-Nostalgia.git
+GitHub Pages:https://github.com/Marcospicko/Ps2-Jogos.git
 <br>
 AA1: https://drive.google.com/drive/folders/1VOlnt7-GQDn-p8C0Rirv5vC3lo4vHtJm
 <br>
