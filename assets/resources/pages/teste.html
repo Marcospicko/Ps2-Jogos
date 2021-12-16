@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  function salvarForm(){
+     if (localStorage.cont) {
+        localStorage.cont = Number(localStorage.cont)+1;
+     } else {
+        localStorage.cont = 1;
+     }
+     
+     let  cad = document.getElementById('nome').value + ';' + document.getElementById('idade').value;
+     localStorage.setItem("cad_"+localStorage.cont,cad);
+  }
+</script>
+</head>
+<body>
+  <input type="text" id="nome" placeholder="nome" />
+  <input type="text" id="idade" placeholder="idade" />
+  <button id="bt-enviar" onclick="salvarForm()">Enviar</button>
+</body>
+</html>
