@@ -8,10 +8,12 @@
 
   if (telefone.value.length === 0 || assunto.value.length === 0  ||  nome.value.length === 0||  descricao.value.length === 0) {
     window.alert('Preencha todos os campos   para poder mandar sua mensagem !');
+    return false;
 
 
   } else if (!(telefone.value.length=== 0 && texto.value.length=== 0 && assunto.value.length=== 0)){
     window.open('finalizar-contato.html');
+    return true;
   }
 }
 

@@ -12,7 +12,7 @@ AA2: https://drive.google.com/file/d/1tfzfpaBrkHgFmAn5dDFHJBs-p-gsNrzY/view?
 
 Caixas de Diálogo
 
-- [x] prompt
+- [x] prompt ---
 - [x] alert
 - [x] confirm
 
@@ -28,7 +28,7 @@ Funções
 - [x] Função anônima com retorno
 - [x] Função auto-executável
 - [x] Função com nome
-- [x] Função aninhada/local - declarar uma função dentro de outra
+- [ ] Função aninhada/local - declarar uma função dentro de outra
 - [x] Passagem de uma função como parâmetro
 - [x] Função Flecha - Arrow Function
 
@@ -51,7 +51,7 @@ Acesso aos elementos DOM do HTML
 
 Tratadores de Evento
 
-- [x] Especificar o tratador de evento inline
+- [ ] Especificar o tratador de evento inline
 - [x] Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
 - [x] Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
 - [x] Usar o operador this em funções tratadoras de eventos.

@@ -43,8 +43,7 @@ function cliqueEmImagens() {
 //  getElementsByName
 const btn = document.getElementById('botao');
 
-btn.addEventListener('click', () => {
-  const contagem = document.getElementsByName('avaliar');
+btn.addEventListener('click', () => { const contagem = document.getElementsByName('avaliar');
   contagem.forEach((avaliar) => {
    if (avaliar.checked) {
      window.alert('O jogo que vc escolheu no caso: ' + avaliar.value + 

@@ -9,7 +9,6 @@ const avaliacao = function avaliacao() {
   window.alert('Obrigado pela nota ' + mensagem() + ' estamos sempre procurando ' +
     'melhorar para que possamos ter notas maiores do que vc nos deu');
 }
-avaliacao();
 
 // Uso de seletores CSS - id, classe e tag
 function alterarCorTitulo() {
