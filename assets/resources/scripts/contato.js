@@ -43,6 +43,7 @@ function descobertaDeElementos() {
 
 }
 
+// Usar o operador this em funções tratadoras de eventos.
 $("img").error(function()
 {
   $(this).hide();
