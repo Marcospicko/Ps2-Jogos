@@ -1,16 +1,16 @@
 'use strict';
 
-// Manipulação do CSS via função css() e addClass()/removeClass()
+/* // Manipulação do CSS via função css() e addClass()/removeClass()
 $(document).ready(function(){
   $("button").click(function(){
     $(":input").removeClass("alterarCor");
   });
 });
-
-function botaoPesquisa( ) {
+ */
+function botaoPesquisar() {
  const texto = window.document.getElementById('text1');
 
-  if (texto.value === '' ) {
+  if (texto.value.length === '' ) {
       window.alert('[ERROR] você não digitou  nada para fazer a pesquisa !');
   }
 } 
