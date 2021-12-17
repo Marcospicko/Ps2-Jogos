@@ -1,8 +1,5 @@
 'use strict';
 
-// usa as marcaçoes feita no radio em uma array  (não feita)
-
-
 // declaração anonima
 const baixandoJogos = function() {
   window.alert('Bom aproveito , baixe os melhores jogos  que marcaram sua vida');
@@ -21,14 +18,14 @@ function cliqueEmImagens() {
    'saber se vc tem mais de 10 anos de idade para poder baixar jogos neste site !');
 
   if (anoNascimento > 10) {
-    window.alert('Beleza coleguinha você esta apto para baixar os jogos neste site !');
-  } else if (anoNascimento < 10 || anoNascimento === 0) {
-    window.alert('aaaaa que pena que você não tem idade suficientea  a idade mínima para '+
+     window.alert('Beleza coleguinha você esta apto para baixar os jogos neste site !');
+         } else if (anoNascimento < 10 || anoNascimento === 0) {
+            window.alert('aaaaa que pena que você não tem idade suficientea  a idade mínima para '+
                 'entrar neste site é 10 anos, mas não fique triste vamos te lelet para um '+
                 'site aonde você  pode assitir desenhos para sua idade ');
 
-    window.open('https://www.youtube.com/watch?v=Fn9adh4HWUU');
-  }
+                      window.open('https://www.youtube.com/watch?v=Fn9adh4HWUU');
+         }
 }());
 
 //  Evento de carregamento do documento - onload

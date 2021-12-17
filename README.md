@@ -59,9 +59,9 @@ Tratadores de Evento
 Objetos Nativos
 
 - [ ] Usar pelo menos 3 métodos de manipulação de array
-- [ ] Usar laço de repetição (for..in ou for..of ou forEach)
+- [X] Usar laço de repetição (for..in ou for..of ou forEach)
 - [x] Usar pelo menos 3 métodos para manipulação de string
-- [x] String Template
+- [ ] String Template
 
 Objetos
 
@@ -82,25 +82,25 @@ Qualidade do código
 Formulário
 
 - [x] Validação de formulário com onsubmit usando os métodos tradicionais
-- [x] Validação de formulário com HTML5 API
-- [x] Customizar as mensagens nos balões de mensagem
+- [x] Validação de formulário com HTML5 API ("não obrigatório mas fiz")
+- [ ] Customizar as mensagens nos balões de mensagem
 - [x] Usar os atributos de validação dos inputs
 - [x] Usar expressões regulares
 - [x] Ler e escrever em elementos input com a propriedade value
 - [x] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
 - [x] Manipulação de elemento de listagem, como checkbox, radio ou select
-- [x] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
+- [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
 
 jQuery
 
 - [x] Uso de seletores CSS - id, classe e tag
-- [x] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
-- [x] Uso de seletores hierárquicos dinâmicos - parent/children/next
+- [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
+- [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
 - [x] Efeitos fade ou slide
 - [x] Especificar o tratador de algum evento via jQuery
 - [x] Manipulação do CSS via função css() e addClass()/removeClass()
 - [x] Manipulação do conteúdo de um input e div usando jQuery
-- [x] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
+- [ ] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 
 Web Storage
 

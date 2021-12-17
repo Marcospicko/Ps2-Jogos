@@ -18,7 +18,7 @@ function botaoPesquisa( ) {
 // caixa de dialagos
 window.confirm('Deseja entrar no site e baixar os jogos mais marcantes do playstation 2 ?');
 let nome = window.prompt('Digite seu nome: ');
-  if(nome.length >1) {
+  if(nome.length > 1) {
     window.alert('olá ' + nome.toUpperCase() + ' seja BEM VINDO ao site mais marcante do '+
      ' Brasil ! ');
     }
@@ -65,8 +65,6 @@ array = ['                                  PES 2023 \n',
     window.alert('ESTES SÃO OS JOGOS QUE VC VERÁ DAQUI 2 ANOS EM NOSSO SITE:\n\n\n ' + 
                   array.map(function(s){return s;}))
 }
-clicandoNovidades();
-  
   function botaoJogos2023()
 {
     const jogos =  [ 'PES 2023 ','JACK 3 ','FANTASSY FINAL ', 'RESIDENTE EVIL 6 ROUND ',+
